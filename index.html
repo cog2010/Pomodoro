@@ -1,0 +1,42 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Italiana" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <audio id = "workStart" src="workStart.mp3"></audio>
+    <audio id = "breakStart" src="breakStart.mp3"></audio>
+    <audio id = "breakEnd" src="breakEnd.mp3"></audio>
+    <title>Pomodoro Clock</title>
+  </head>
+  <body>
+     <h1>Pomodoro Clock</h1>
+
+     <h2 id="timerType"></h2>
+     <h1 id="timer"></h1>
+
+     <div id = "workClock" class = "container">
+       <h3>Work Time</h3>
+       <a href="#" class = "col-xs-4 col-sm-1 col-sm-offset-4 text-right" id = "workDown"><h2>-</h2></a>
+       <div class = "col-xs-4 col-sm-2" id = "workSet"><h2></h2></div>
+       <a href="#" class = "col-xs-4 col-sm-2 text-left" id = "workUp"><h2>+</h2></a>
+    </div>
+
+    <div id = "breakClock" class = "container">
+      <h3>Break Time</h3>
+      <a href="#" class = "col-xs-4 col-sm-1 col-sm-offset-4 text-right" id = "breakDown"><h2>-</h2></a>
+      <div class = "col-xs-4 col-sm-2" id = "breakSet"><h2></h2></div>
+      <a href="#" class = "col-xs-4 col-sm-2 text-left" id = "breakUp"><h2>+</h2></a>
+   </div>
+
+   <div>
+      <button class = "btn btn-default" id = "start">Start</button>
+      <button class = "btn btn-default" id = "reset">Reset</button>
+   </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

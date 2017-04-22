@@ -1,0 +1,21 @@
+body{
+   text-align: center;
+   background-image:url("https://images.unsplash.com/photo-1467020323552-36f7bf0e30e6?dpr=1&amp;auto=format&amp;fit=crop&amp;w=767&amp;h=511&amp;q=80&amp;cs=tinysrgb&amp;crop=&amp;bg=");
+   background-size:cover;
+   background-color: gray;
+   background-blend-mode:lighten;
+   color: #222;
+   font-family: 'Italiana', serif;
+   font-weight: 900;
+}
+a:link, a:visited{
+   color:#222;
+   text-decoration: none;
+ }
+a:hover, a:active{
+    color:#555;
+    text-decoration:none;
+}
+.container {
+   margin-top: 5%;
+}
