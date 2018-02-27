@@ -8,7 +8,7 @@ $(document).ready(function(){
    $("#timerType").hide();
    $("#timer").hide()
 
-   var workTime = 1500;
+   var workTime = 600;
    var breakTime = 300;
    $("#workSet").html("<h2>" + convertTime(workTime) + "</h2>");
    $("#breakSet").html("<h2>" + convertTime(breakTime) + "</h2>");
